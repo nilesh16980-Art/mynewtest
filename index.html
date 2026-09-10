@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quick Test Challenge</title>
+<meta name="description" content="A simple mobile-friendly online test website with WhatsApp query support.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="badge">ONLINE TEST</div>
+    <h1>Quick Test Challenge</h1>
+    <p>Test your knowledge, check your score and ask your query directly on WhatsApp.</p>
+    <a class="whatsapp top" href="https://wa.me/919999999999?text=Hello%2C%20I%20have%20a%20query%20about%20the%20test." target="_blank" rel="noopener">💬 WhatsApp Query</a>
+  </div>
+</header>
+
+<main class="container">
+  <section class="card intro">
+    <h2>Welcome to the Test</h2>
+    <p>Answer all questions and click <b>Submit Test</b>. Your score will appear instantly.</p>
+    <div class="info">
+      <span>⏱ 10 Questions</span><span>📱 Mobile Friendly</span><span>💬 WhatsApp Support</span>
+    </div>
+  </section>
+
+  <form id="quizForm" class="card">
+    <div id="questions"></div>
+    <button class="submit" type="submit">Submit Test</button>
+  </form>
+
+  <section id="result" class="card result hidden">
+    <h2>Your Result</h2>
+    <div id="score"></div>
+    <button class="retry" onclick="location.reload()">Try Again</button>
+  </section>
+</main>
+
+<a class="floating-whatsapp" href="https://wa.me/919999999999?text=Hello%2C%20I%20have%20a%20query%20about%20the%20test." target="_blank" rel="noopener" aria-label="WhatsApp Query">💬</a>
+
+<footer>© 2026 Quick Test Challenge • Replace the WhatsApp number and questions in <code>script.js</code>.</footer>
+<script src="script.js"></script>
+</body>
+</html>
